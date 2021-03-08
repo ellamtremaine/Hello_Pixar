@@ -1,6 +1,7 @@
 ---
 title: "To-infinity-and-beyond"
 output: html_document
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -8,13 +9,17 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
+
 ```{r cars}
 summary(cars)
 ```
 
 ## Including Plots
 
+Looks like a regular word processor [@page2020]
+
+![](images/Screen%20Shot%202021-02-24%20at%203.00.49%20pm.png)
+
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
-
